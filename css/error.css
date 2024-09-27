@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(../images/error.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  position: relative;
+  top: 50px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+  position: relative;
+  top: 100px;
+}
+
+.nothing {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.nothingText {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  column-gap: 5vw;
+}
+
+.link {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.choice {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 17px;
+  box-shadow: 0px 5px rgb(201, 201, 201);
+}
+
+.choice:hover {
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+.choice:active {
+  box-shadow: none;
+  transform: translateY(5px);
+  transition: 0.5s;
+  font-size: 15px;
+}

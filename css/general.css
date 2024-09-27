@@ -1,0 +1,1260 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Caveat:wght@400..700&family=Chewy&family=Kotta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  background-image: url(../images/backgroundDev.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-rows: 80px 750px;
+  row-gap: 20px;
+  width: auto;
+  background-color: white;
+  margin: 40px 15vw;
+  padding: 15px;
+  border-radius: 20px;
+  opacity: 1;
+  box-shadow: 5px 5px rgb(165, 165, 165);
+}
+
+header {
+  background-color: rgb(160, 143, 255);
+  border-radius: 20px;
+  animation: slideDown 2s;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+h1 {
+  padding-left: 15px;
+  font-size: 1.6rem;
+}
+
+h1::before {
+  content: 'Liam';
+  padding-right: 5px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  width: 420px;
+  padding-left: 250px;
+}
+
+.categ {
+  display: grid;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.categ:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  column-gap: 35px;
+  padding-bottom: 20px;
+}
+
+.part1 {
+  display: grid;
+  grid-template-rows: 55% 45%;
+  row-gap: 15px;
+}
+
+.part2 {
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: 85% 15%;
+  row-gap: 15px;
+}
+
+.sub1 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  column-gap: 15px;
+}
+
+.sub2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 15px;
+}
+
+.text1 {
+  background-color: rgb(160, 143, 255);
+  border-radius: 20px;
+  animation: slideRight 2s;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.text2 {
+  background-color: rgb(160, 143, 255);
+  border-radius: 20px;
+  animation: slideUp 2s;
+}
+
+.text3 {
+  background-color: rgb(75, 43, 255);
+  border-radius: 20px;
+  animation: slideUp 2s;
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+
+.image1 {
+  overflow: hidden;
+  background-image: url(../images/moi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  animation: slideLeft 2s;
+}
+
+.sub3 {
+  background-color: rgb(160, 143, 255);
+  border-radius: 20px;
+  animation: slideLeft 2s;
+  display: grid;
+  grid-template-rows: 52% 48%;
+  justify-content: center;
+}
+
+.sub3Head {
+  display: grid;
+  grid-template-rows: 30% 70%;
+}
+
+.sub3Mid {
+  display: grid;
+  grid-template-rows: 10% 22% 10% 22% 10% 22%;
+}
+
+.sub4 {
+  background-color: rgb(160, 143, 255);
+  border-radius: 20px;
+  animation: slideLeft 2s;
+  display: grid;
+  justify-content: center;
+}
+
+.progImage {
+  display: grid;
+  position: relative;
+  right: 0;
+  left: 22vw;
+  top: 30px;
+}
+
+.progTitle {
+  display: grid;
+  font-size: 1.75rem;
+  font-weight: 700;
+  width: 500px;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  left: 10px;
+}
+
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.presentTitle {
+  font-size: 0.95rem;
+  width: 300px;
+  position: relative;
+  left: 20px;
+}
+
+.questions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.quesText {
+  font-size: 0.81rem;
+  width: 95px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+.arrowTopRight {
+  height: 20px;
+  position: relative;
+  left: 9vw;
+  top: 40px;
+}
+
+.contacTitle {
+  font-size: 2.19rem;
+  font-weight: 500;
+  position: relative;
+  left: 1vw;
+}
+
+.socialCont {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  column-gap: 0;
+  align-items: center;
+  height: 100%;
+  width: 18vw;
+}
+
+.social {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.break {
+  border-top: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+.demo {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.language {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.high {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.musea {
+  font-size: 1.25rem;
+  font-weight: 700;
+  position: relative;
+  top: 30px;
+}
+
+.arrowTopRightTwo {
+  height: 15px;
+  position: relative;
+  left: 8.5vw;
+  top: 36px;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1701px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 750px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 13vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1601px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 750px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 11vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1501px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 750px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 9vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1401px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 750px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 7vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1130px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 1000px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 12vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+
+  main {
+    display: grid;
+    grid-template-rows: 1fr 30%;
+    grid-template-columns: none;
+    row-gap: 35px;
+    padding-bottom: 20px;
+  }
+
+  .part1 {
+    padding-right: 15px;
+  }
+
+  .sub3 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 250px;
+    justify-content: center;
+  }
+
+  .sub3Head {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30% 70%;
+  }
+
+  .sub3Mid {
+    display: grid;
+    grid-template-columns: 6% 26% 6% 26% 6% 26%;
+    height: 250px;
+  }
+
+  .high {
+    height: auto;
+    height: 200px;
+  }
+
+  .break {
+    border-top: none;
+    border-left: solid 2px rgba(0, 0, 0, 0.2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .demo {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .musea {
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+  }
+
+  .language {
+    font-size: 20px;
+    font-weight: 700;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .image1 {
+    overflow: hidden;
+    background-image: url(../images/moi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    animation: slideLeft 2s;
+  }
+
+  .socialCont {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    column-gap: 3vw;
+    align-items: center;
+    height: 100%;
+    width: 20vw;
+  }
+
+  .arrowTopRight {
+    height: 20px;
+    position: relative;
+    left: 13vw;
+    top: 40px;
+  }
+
+  .arrowTopRightTwo {
+    height: 15px;
+    position: relative;
+    left: 10vw;
+    top: 12px;
+  }
+
+  .quesText {
+    font-size: 13px;
+    width: 95px;
+    position: relative;
+    left: 2vw;
+    top: 20px;
+  }
+
+  .contacTitle {
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    left: 2vw;
+    bottom: 20px;
+  }
+
+  .progTitle {
+    left: 10px;
+  }
+
+  .progImage {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 1130px) and (min-width: 980px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 1000px;
+    row-gap: 20px;
+    width: auto;
+    background-color: white;
+    margin: 40px 6vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+
+  main {
+    display: grid;
+    grid-template-rows: 1fr 30%;
+    grid-template-columns: none;
+    row-gap: 35px;
+    padding-bottom: 20px;
+  }
+
+  .part1 {
+    padding-right: 15px;
+  }
+
+  .sub3 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 250px;
+    justify-content: center;
+  }
+
+  .sub3Head {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30% 70%;
+  }
+
+  .sub3Mid {
+    display: grid;
+    grid-template-columns: 6% 26% 6% 26% 6% 26%;
+    height: 250px;
+  }
+
+  .high {
+    height: auto;
+    height: 200px;
+  }
+
+  .break {
+    border-top: none;
+    border-left: solid 2px rgba(0, 0, 0, 0.2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .demo {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .musea {
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+  }
+
+  .language {
+    font-size: 20px;
+    font-weight: 700;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .image1 {
+    overflow: hidden;
+    background-image: url(../images/moi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    animation: slideLeft 2s;
+  }
+
+  .socialCont {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    column-gap: 3vw;
+    align-items: center;
+    height: 100%;
+    width: 22vw;
+  }
+
+  .arrowTopRight {
+    height: 20px;
+    position: relative;
+    left: 13vw;
+    top: 40px;
+  }
+
+  .arrowTopRightTwo {
+    height: 15px;
+    position: relative;
+    left: 16vw;
+    top: 12px;
+  }
+
+  .quesText {
+    font-size: 13px;
+    width: 95px;
+    position: relative;
+    left: 2vw;
+    top: 20px;
+  }
+
+  .contacTitle {
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    left: 2vw;
+    bottom: 20px;
+  }
+
+  .progTitle {
+    left: 10px;
+  }
+
+  .progImage {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 322px) {
+  html {
+    display: grid;
+    justify-content: center;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 1700px;
+    row-gap: 20px;
+    background-color: white;
+    margin: 40px 8vw;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+    width: 70vw;
+  }
+  
+  header {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideDown 2s;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    font-size: 4vw;
+    position: relative;
+    left: 80px;
+    padding-top: 10px;
+  }
+  
+  h1::before {
+    content: 'Liam';
+    padding-right: 5px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  nav {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    width: 330px;
+    padding-left: 0;
+  }
+  
+  .categ {
+    display: grid;
+    justify-content: center;
+    font-size: 0.80rem;
+    font-weight: 500;
+    border: none;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .categ:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    row-gap: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .part1 {
+    display: grid;
+    grid-template-rows: 55% 45%;
+    grid-template-columns: none;
+    row-gap: 15px;
+    width: 70vw;
+  }
+  
+  .part2 {
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    grid-template-columns: none;
+    row-gap: 15px;
+    width: 70vw;
+  }
+  
+  .sub1 {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: none;
+    row-gap: 15px;
+  }
+  
+  .sub2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    row-gap: 15px;
+  }
+  
+  .text1 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideRight 2s;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: 70vw;
+  }
+  
+  .text2 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideUp 2s;
+    width: 70vw;
+  }
+  
+  .text3 {
+    background-color: rgb(75, 43, 255);
+    border-radius: 20px;
+    animation: slideUp 2s;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    margin-bottom: 10px;
+    width: 70vw;
+  }
+  
+  .image1 {
+    overflow: hidden;
+    background-image: url(../images/moi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(123, 89, 147);
+    animation: slideLeft 2s;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    top: -450px;
+    left: 5vw;
+    right: 0px;
+  }
+  
+  .sub3 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    grid-template-rows: 52% 48%;
+    justify-content: center;
+  }
+  
+  .sub3Head {
+    display: grid;
+    grid-template-rows: 30% 70%;
+  }
+  
+  .sub3Mid {
+    display: grid;
+    grid-template-rows: 10% 22% 10% 22% 10% 22%;
+  }
+  
+  .sub4 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    justify-content: center;
+    height: 100px;
+  }
+  
+  .progImage {
+    display: grid;
+    position: relative;
+    left: 55vw;
+    top: 30px;
+  }
+  
+  .progTitle {
+    display: grid;
+    font-size: 1.50rem;
+    font-weight: 700;
+    width: 500px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    left: 10px;
+  }
+  
+  .italic {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .presentTitle {
+    font-size: 0.95rem;
+    width: 300px;
+    position: relative;
+    left: 20px;
+    bottom: 120px;
+  }
+
+  .presentImage {
+    position: relative;
+    left: 50vw;
+  }
+  
+  .questions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .quesText {
+    font-size: 0.81rem;
+    width: 95px;
+    position: relative;
+    left: 15px;
+    top: 0px;
+  }
+  
+  .arrowTopRight {
+    height: 20px;
+    position: relative;
+    left: 30vw;
+    top: 20px;
+  }
+  
+  .contacTitle {
+    font-size: 2.19rem;
+    font-weight: 500;
+    position: relative;
+    left: 2vw;
+    bottom: 50px;
+  }
+  
+  .socialCont {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    column-gap: 0;
+    align-items: center;
+    height: 100%;
+    width: 50vw;
+  }
+  
+  .social {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .break {
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .demo {
+    width: 350px;
+    border-radius: 10px;
+  }
+  
+  .language {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .high {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .musea {
+    font-size: 1.25rem;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+  }
+  
+  .arrowTopRightTwo {
+    height: 15px;
+    position: relative;
+    left: 23vw;
+    top: 36px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-rows: 80px 1700px;
+    row-gap: 20px;
+    width: 300px;
+    background-color: white;
+    margin: 40px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+  }
+  
+  header {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideDown 2s;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    font-size: 1.6rem;
+    position: relative;
+    left: 80px;
+    padding-top: 10px;
+  }
+  
+  h1::before {
+    content: 'Liam';
+    padding-right: 5px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  nav {
+    display: grid;
+    width: auto;
+    padding-left: 0;
+    border: solid 2px black;
+  }
+  
+  .categ {
+    display: grid;
+    justify-content: center;
+    font-size: 0.80rem;
+    font-weight: 500;
+    border: none;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .categ:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    row-gap: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .part1 {
+    display: grid;
+    grid-template-rows: 55% 45%;
+    grid-template-columns: none;
+    row-gap: 15px;
+    width: 320px;
+  }
+  
+  .part2 {
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    grid-template-columns: none;
+    row-gap: 15px;
+    width: 320px;
+  }
+  
+  .sub1 {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: none;
+    row-gap: 15px;
+  }
+  
+  .sub2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    row-gap: 15px;
+  }
+  
+  .text1 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideRight 2s;
+    display: grid;
+    grid-template-rows: 60% 40%;
+  }
+  
+  .text2 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideUp 2s;
+  }
+  
+  .text3 {
+    background-color: rgb(75, 43, 255);
+    border-radius: 20px;
+    animation: slideUp 2s;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    margin-bottom: 10px;
+  }
+  
+  .image1 {
+    overflow: hidden;
+    background-image: url(../images/moi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(123, 89, 147);
+    animation: slideLeft 2s;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    top: -450px;
+    left: 5vw;
+    right: 0px;
+  }
+  
+  .sub3 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    grid-template-rows: 52% 48%;
+    justify-content: center;
+  }
+  
+  .sub3Head {
+    display: grid;
+    grid-template-rows: 30% 70%;
+  }
+  
+  .sub3Mid {
+    display: grid;
+    grid-template-rows: 10% 22% 10% 22% 10% 22%;
+  }
+  
+  .sub4 {
+    background-color: rgb(160, 143, 255);
+    border-radius: 20px;
+    animation: slideLeft 2s;
+    display: grid;
+    justify-content: center;
+    height: 100px;
+  }
+  
+  .progImage {
+    display: grid;
+    position: relative;
+    left: 55vw;
+    top: 30px;
+  }
+  
+  .progTitle {
+    display: grid;
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 500px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    left: 10px;
+  }
+  
+  .italic {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .presentTitle {
+    font-size: 0.95rem;
+    width: 300px;
+    position: relative;
+    left: 20px;
+    bottom: 120px;
+  }
+
+  .presentImage {
+    position: relative;
+    left: 50vw;
+  }
+  
+  .questions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .quesText {
+    font-size: 0.81rem;
+    width: 95px;
+    position: relative;
+    left: 15px;
+    top: 0px;
+  }
+  
+  .arrowTopRight {
+    height: 20px;
+    position: relative;
+    left: 30vw;
+    top: 20px;
+  }
+  
+  .contacTitle {
+    font-size: 2.19rem;
+    font-weight: 500;
+    position: relative;
+    left: 2vw;
+    bottom: 50px;
+  }
+  
+  .socialCont {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    column-gap: 0;
+    align-items: center;
+    height: 100%;
+    width: auto;
+  }
+  
+  .social {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .break {
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .demo {
+    width: 350px;
+    border-radius: 10px;
+  }
+  
+  .language {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .high {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .musea {
+    font-size: 1.25rem;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+  }
+  
+  .arrowTopRightTwo {
+    height: 15px;
+    position: relative;
+    left: 23vw;
+    top: 36px;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(1000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gradientOpak {
+  0% {
+    background: linear-gradient( rgba( 255, 255, 255, 0), #ffffff, #ffffff, #ffffff, #ffffff);
+  }
+
+  20% {
+    background: linear-gradient( #ffffff, rgba( 255, 255, 255, 0), #ffffff, #ffffff, #ffffff);
+  }
+
+  40% {
+    background: linear-gradient( #ffffff, #ffffff, rgba( 255, 255, 255, 0), #ffffff, #ffffff);
+  }
+
+  60% {
+    background: linear-gradient( #ffffff, #ffffff, #ffffff, rgba( 255, 255, 255, 0), #ffffff);
+  }
+
+  80% {
+    background: linear-gradient( #ffffff, #ffffff, #ffffff, #ffffff, rgba( 255, 255, 255, 0));
+  }
+}
