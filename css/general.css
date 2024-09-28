@@ -617,7 +617,7 @@ main {
   }
 }
 
-@media screen and (max-width: 980px) and (min-width: 322px) {
+@media screen and (max-width: 980px) and (min-width: 660px) {
   html {
     display: grid;
     justify-content: center;
@@ -800,19 +800,18 @@ main {
   .progImage {
     display: grid;
     position: relative;
-    left: 55vw;
-    top: 30px;
+    left: 45vw;
+    top: 150px;
   }
   
   .progTitle {
     display: grid;
     font-size: 1.50rem;
     font-weight: 700;
-    width: 500px;
+    width: 70vw;
     position: relative;
     bottom: 40px;
     text-align: center;
-    left: 10px;
   }
   
   .italic {
@@ -867,7 +866,8 @@ main {
     column-gap: 0;
     align-items: center;
     height: 100%;
-    width: 50vw;
+    column-gap: 10vw;
+    justify-content: center;
   }
   
   .social {
@@ -875,6 +875,7 @@ main {
     background-color: rgba(0, 0, 0, 0);
     font-size: 15px;
     cursor: pointer;
+    width: 80px;
   }
   
   .break {
@@ -911,13 +912,18 @@ main {
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 659px) {
+  html {
+    display: grid;
+    justify-content: center;
+  }
+
   body {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-rows: 80px 1700px;
     row-gap: 20px;
-    width: 300px;
+    width: 70vw;
     background-color: white;
     margin: 40px 0px;
     margin-left: 0px;
@@ -988,7 +994,7 @@ main {
     grid-template-rows: 55% 45%;
     grid-template-columns: none;
     row-gap: 15px;
-    width: 320px;
+    width: 70vw;
   }
   
   .part2 {
@@ -997,7 +1003,7 @@ main {
     grid-template-rows: 85% 15%;
     grid-template-columns: none;
     row-gap: 15px;
-    width: 320px;
+    width: 70vw;
   }
   
   .sub1 {
@@ -1020,12 +1026,14 @@ main {
     animation: slideRight 2s;
     display: grid;
     grid-template-rows: 60% 40%;
+    width: 70vw;
   }
   
   .text2 {
     background-color: rgb(160, 143, 255);
     border-radius: 20px;
     animation: slideUp 2s;
+    width: 70vw;
   }
   
   .text3 {
@@ -1035,6 +1043,7 @@ main {
     display: grid;
     grid-template-rows: 70% 30%;
     margin-bottom: 10px;
+    width: 70vw;
   }
   
   .image1 {
@@ -1047,8 +1056,8 @@ main {
     box-shadow: 5px 5px rgb(123, 89, 147);
     animation: slideLeft 2s;
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 30vw;
+    height: 30vw;
     z-index: 1000;
     top: -450px;
     left: 5vw;
@@ -1086,15 +1095,15 @@ main {
   .progImage {
     display: grid;
     position: relative;
-    left: 55vw;
-    top: 30px;
+    left: 40vw;
+    top: 150px;
   }
   
   .progTitle {
     display: grid;
     font-size: 1.25rem;
     font-weight: 700;
-    width: 500px;
+    width: 65vw;
     position: relative;
     bottom: 40px;
     text-align: center;
@@ -1110,13 +1119,15 @@ main {
     font-size: 0.95rem;
     width: 300px;
     position: relative;
-    left: 20px;
+    left: 10px;
     bottom: 120px;
   }
 
   .presentImage {
     position: relative;
-    left: 50vw;
+    left: 38vw;
+    top: 80px;
+    size: 0.1;
   }
   
   .questions {
@@ -1135,7 +1146,7 @@ main {
   .arrowTopRight {
     height: 20px;
     position: relative;
-    left: 30vw;
+    left: 25vw;
     top: 20px;
   }
   
@@ -1150,7 +1161,7 @@ main {
   .socialCont {
     display: grid;
     grid-template-columns: 35% 30% 35%;
-    column-gap: 0;
+    column-gap: 4vw;
     align-items: center;
     height: 100%;
     width: auto;
@@ -1168,7 +1179,7 @@ main {
   }
   
   .demo {
-    width: 350px;
+    width: 300px;
     border-radius: 10px;
   }
   
@@ -1192,7 +1203,7 @@ main {
   .arrowTopRightTwo {
     height: 15px;
     position: relative;
-    left: 23vw;
+    left: 28vw;
     top: 36px;
   }
 }
